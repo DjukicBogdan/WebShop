@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/WcfServiceWebShop" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfServiceWebShop" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfOsobaCon">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="OsobaCon" nillable="true" type="tns:OsobaCon" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfOsobaCon" nillable="true" type="tns:ArrayOfOsobaCon" />
+  <xs:complexType name="OsobaCon">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ImePrezime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Kolicina" type="xs:int" />
+      <xs:element minOccurs="0" name="KucniBroj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mesto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OsobaId" type="xs:int" />
+      <xs:element minOccurs="0" name="PostanskiBroj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StaPorucujete" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ulica" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="OsobaCon" nillable="true" type="tns:OsobaCon" />
+  <xs:complexType name="Porucbenica">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ImePrezime" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Kolicina" type="xs:int" />
+      <xs:element minOccurs="0" name="KucniBroj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mesto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OsobaId" type="xs:int" />
+      <xs:element minOccurs="0" name="PostanskiBroj" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StaPorucujete" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefon" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Ulica" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Porucbenica" nillable="true" type="tns:Porucbenica" />
+</xs:schema>

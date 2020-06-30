@@ -1,0 +1,15 @@
+C:\Users\bogda\source\repos\WebShop\WebShop\bin\Debug\WebShop.exe.config
+C:\Users\bogda\source\repos\WebShop\WebShop\bin\Debug\WebShop.exe
+C:\Users\bogda\source\repos\WebShop\WebShop\bin\Debug\WebShop.pdb
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.csprojAssemblyReference.cache
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\MainWindow.g.cs
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\App.g.cs
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop_MarkupCompile.cache
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop_MarkupCompile.lref
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\MainWindow.baml
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.g.resources
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.Properties.Resources.resources
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.csproj.GenerateResource.cache
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.csproj.CoreCompileInputs.cache
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.exe
+C:\Users\bogda\source\repos\WebShop\WebShop\obj\Debug\WebShop.pdb

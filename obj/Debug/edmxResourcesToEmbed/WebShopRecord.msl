@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebShopRecordModelStoreContainer" CdmEntityContainer="WebShopRecordEntities">
+    <EntitySetMapping Name="Porucbenicas">
+      <EntityTypeMapping TypeName="WebShopRecordModel.Porucbenica">
+        <MappingFragment StoreEntitySet="Porucbenica">
+          <ScalarProperty Name="OsobaId" ColumnName="OsobaId" />
+          <ScalarProperty Name="ImePrezime" ColumnName="ImePrezime" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="KucniBroj" ColumnName="KucniBroj" />
+          <ScalarProperty Name="PostanskiBroj" ColumnName="PostanskiBroj" />
+          <ScalarProperty Name="Mesto" ColumnName="Mesto" />
+          <ScalarProperty Name="StaPorucujete" ColumnName="StaPorucujete" />
+          <ScalarProperty Name="Kolicina" ColumnName="Kolicina" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

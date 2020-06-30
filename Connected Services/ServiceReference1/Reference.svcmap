@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="367ff147-467d-4371-8381-d1c3a677e852" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50214/ServicePorudzbenica.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicePorudzbenica.xsd" MetadataType="Schema" ID="c7f6b053-f19f-469c-aa10-a78f2a305a4d" SourceId="1" SourceUrl="http://localhost:50214/ServicePorudzbenica.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicePorudzbenica.wsdl" MetadataType="Wsdl" ID="0e55743e-6704-4219-bb33-3af0eea0ac0e" SourceId="1" SourceUrl="http://localhost:50214/ServicePorudzbenica.svc?wsdl" />
+    <MetadataFile FileName="ServicePorudzbenica.disco" MetadataType="Disco" ID="069c9ce9-ecae-45e1-9b2f-123805bcf7a1" SourceId="1" SourceUrl="http://localhost:50214/ServicePorudzbenica.svc?disco" />
+    <MetadataFile FileName="ServicePorudzbenica1.xsd" MetadataType="Schema" ID="c0b099fe-694f-4911-a9ce-9edf1f237c1e" SourceId="1" SourceUrl="http://localhost:50214/ServicePorudzbenica.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicePorudzbenica2.xsd" MetadataType="Schema" ID="59a9d2de-c3cf-4ef5-8a28-ae6460ef7c1c" SourceId="1" SourceUrl="http://localhost:50214/ServicePorudzbenica.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
